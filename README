@@ -1,4 +1,8 @@
-K-Means Clustering Lab
+MSCS_634_Lab_3
+
+By Shreyas More
+
+K-Means Clustering Lab 3
 Purpose
 
 This lab applies the K-Means clustering algorithm to group customer location data into three clusters using Euclidean distance.
