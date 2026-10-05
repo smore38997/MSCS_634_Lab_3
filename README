@@ -1,0 +1,18 @@
+K-Means Clustering Lab
+Purpose
+
+This lab applies the K-Means clustering algorithm to group customer location data into three clusters using Euclidean distance.
+
+Key Insights
+
+The algorithm converged to three clusters:
+
+Cluster 1: P1, Q1, R2 → (4.667, 10.667)
+Cluster 2: P3, Q2, Q3 → (8, 4)
+Cluster 3: P2, R1 → (2.5, 4.5)
+
+The results show that points located closer together are grouped into the same cluster.
+
+Challenges and Decisions
+
+The main challenge was calculating distances and updating cluster centers across multiple iterations. R2 had an equal distance to two initial centers, so it was assigned to Cluster 1 as a tie-breaking decision. The algorithm was repeated until the cluster centers stopped changing.
